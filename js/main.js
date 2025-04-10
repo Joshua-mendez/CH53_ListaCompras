@@ -160,5 +160,9 @@ btnClear.addEventListener("click", function(event){
   cuerpoTabla.innerHTML = "";
     txtName.value = "";
     txtNumber.value = "";
+    txtName.style.border="";
+    txtNumber.style.border="";
+    alertValidacionesTexto.innerHTML=""
+    alertValidaciones.style.display= "none";
     txtName.focus();
 });
